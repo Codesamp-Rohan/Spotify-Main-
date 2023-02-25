@@ -104,3 +104,53 @@ body{
     height: 35px;
     gap: 7px;
 }
+.navbar{
+    width: 100%;
+    gap: 600px;
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.l_nav{
+    display: flex;
+    flex-direction: row;
+    padding: 22px;
+    gap: 20px;
+}
+.r_nav{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+}
+.r_nav>a{
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+}
+.join>a{
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+}
+.r_nav>a:hover, .join>a:hover{
+    color: white;
+    font-size: 17px;
+}
+.join{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#login{
+    border-radius: 53px;
+    width: 139px;
+    height: 53px;
+}
+#login>a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    border: 0px solid white;
+}
