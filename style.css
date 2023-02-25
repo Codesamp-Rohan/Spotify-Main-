@@ -11,7 +11,7 @@ body{
     flex-direction: row;
 }
 .l_side{
-    gap: 167px;
+    gap: 138px;
     display: flex;
     flex-direction: column;
 }
@@ -85,13 +85,14 @@ body{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
-    gap: 13px;
+    gap: 37px;
 }
 .l_bottom>a{
     text-decoration: none;
     color: white;
 }
 .l_btn{
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -99,6 +100,7 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
-    width: 115px;
-    height: 38px;
+    width: 99px;
+    height: 35px;
+    gap: 7px;
 }
