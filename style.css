@@ -168,7 +168,6 @@ body{
 }
 .content{
     display: flex;
-    /* gap: 48px; */
     background-color: #1d1d1d;
     padding: 25px;
     justify-content: flex-start;
@@ -176,6 +175,13 @@ body{
     flex-direction: column;
 }
 .contenthead{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenthead2nd{
     color: gray;
     display: flex;
     flex-direction: row;
@@ -234,13 +240,11 @@ h1{
     .navbar{
         font-size: 12px;
     }
-    .l_nav1{
-        width: 11px;
-        height: 11px;
+    .l_nav{
+        display: none;
     }
-    .l_nav2{
-        width: 11px;
-        height: 11px;
+    .r_nav{
+        padding: 10px;
     }
     #login{
         width: 80px;
@@ -264,7 +268,17 @@ h1{
         margin-left: -40px;
     }
     .contenthead{
-        margin-top: 68px;
+        margin-top: 8px;
         margin-bottom: 46px;
+    }
+    .contenthead2nd{
+        margin-top: 48px;
+        margin-bottom: 46px;
+    }
+    .join{
+        gap: 11px;
+    }
+    #login>a{
+        font-size: 11px;
     }
 }

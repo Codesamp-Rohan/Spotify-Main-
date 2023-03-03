@@ -103,6 +103,12 @@
     gap: 10px;
     margin-bottom: 10px;
 }
+.upar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
 .remember{
     display: flex;
     flex-direction: column;
@@ -155,4 +161,37 @@ p{
     font-weight: 700;
     text-decoration: none;
     color: black;
+}
+@media screen and (max-width: 600px) {
+    .main{
+        padding: 30px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .facebookbtn{
+        width: 340px;
+    }
+    .applebtn{
+        width: 340px;
+    }
+    .googlebtn{
+        width: 340px;
+    }
+    .hr{
+        width: 100px;
+    }
+    .checkbox{
+        display: none;
+    }
+    .upar{
+        justify-content: center;
+    }
+    .signinbtn{
+        width: 250px;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
