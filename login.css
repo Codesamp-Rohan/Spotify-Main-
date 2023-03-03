@@ -158,3 +158,36 @@ p{
     text-decoration: none;
     color: black;
 }
+@media screen and (max-width: 600px) {
+    .main{
+        padding: 30px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .facebookbtn{
+        width: 340px;
+    }
+    .applebtn{
+        width: 340px;
+    }
+    .googlebtn{
+        width: 340px;
+    }
+    .hr{
+        width: 100px;
+    }
+    .checkbox{
+        display: none;
+    }
+    .upar{
+        justify-content: center;
+    }
+    .signinbtn{
+        width: 350px;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
