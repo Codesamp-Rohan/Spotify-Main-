@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.imagelogo{
+    border: 2px solid;
+    border-radius: 40px;
+    width: 62px;
+}
+.line1{
+    font-size: 13px;
+}
+.maintop{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    gap: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.facebookbtn{
+    gap: 20px;
+    width: 450px;
+    height: 48px;
+    border-radius: 40px;
+    background-color: #3975ea;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.facebookbtn>a{
+    text-decoration: none !important;
+    color: rgb(255, 255, 255);
+}
+.facebookbtn>img{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 20px;
+}
+.applebtn{
+    gap: 20px;
+    width: 450px;
+    height: 48px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.applebtn>a{
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+}
+.applebtn>img{
+    border-radius: 5px;
+    width: 20px;
+}
+.googlebtn{
+    gap: 20px;
+    width: 450px;
+    height: 48px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.googlebtn>a{
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+}
+.googlebtn>img{
+    border-radius: 5px;
+    width: 20px;
+}
+.bich{
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.hr{
+    width: 200px;
+}
+.name{
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-weight: 700;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.remember{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+    gap: 10px;
+    margin-top: 10px;
+}
+#username{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+.checkbox>p{
+    margin-bottom: 0px;
+}
+.loginbtn{
+    background-color: #5cc35d;
+    border-radius: 33px;
+    border: 0px;
+    width: 114px;
+    height: 45px;
+}
+input[type="checkbox"]:checked {
+    background-color: rgb(0, 255, 132);
+    color: white;
+}
+p{
+    font-weight: 500;
+}
+.signinbtn{
+    background-color: white;
+    width: 450px;
+    border-radius: 30px;
+    height: 48px;
+    border: 1.5px solid black;
+}
+.signinbtn>a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
